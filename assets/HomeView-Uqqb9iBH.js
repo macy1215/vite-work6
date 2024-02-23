@@ -1,1 +1,0 @@
-import{_ as e,o as s,c as o,a as t}from"./index-9GIHsnB6.js";const c={},a={class:"home"},n=t("h6",{class:"text-secondary"},"首頁",-1),_=[n];function r(d,i,p,f,h,l){return s(),o("div",a,_)}const u=e(c,[["render",r]]);export{u as default};
