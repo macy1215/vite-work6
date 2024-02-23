@@ -25,6 +25,11 @@ const routes = [
     ],
   },
   {
+    path: '/:pathMatch(.*)*',
+    name: '404Page',
+    component: () => import('../views/404PageView.vue'),
+  },
+  {
     path: '/login',
     name: 'login',
     component: () => import('../views/LoginView.vue'),
