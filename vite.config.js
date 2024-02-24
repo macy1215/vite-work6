@@ -33,7 +33,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  base: '/vite-work6/dist',
+  base: '/vite-work6/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
